@@ -1,0 +1,440 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="back" class="bg-gradient-to-b from-orange-600 via-red-900 to-amber-600">
+
+    <div id="title" class="h-96 mb-8 flex flex-col justify-center border-b-2 border-solid">
+        <div class="self-center">
+            <span
+                class="text-6xl pb-4 animate-bounce text-zinc-200 font-mono inline-block align-middle hover:italic hover:line-through decoration-zinc-800 decoration-4">
+                SIMPLICITY VS. USABILITY
+            </span>
+        </div>
+        <div class="self-center">
+            <span class="text-xl animate-spin text-zinc-200 font-mono inline-block align-middle  hover:font-bold">
+                TRUCE?
+            </span>
+        </div>
+    </div>
+
+    <div id="context" class="h-auto mb-8 flex flex-col justify-evenly border-b-2 border-solid">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                WHAT IS THIS PROJECT?
+            </span>
+        </div>
+        <div class="self-center flex flex-row justify-center w-full flex-wrap">
+            <div id="row" class="flex flex-row pt-8">
+                <div class="w-1/2 pl-12">
+                    <span class="text-lg text-zinc-200 font-sans inline-block">
+                        <ul class="list-disc">
+                            <li class="pb-2">How can we identify usability problems on a website, and what are the steps required to fix these problems?</li>
+                            
+                        </ul>
+                    </span>
+                </div>
+                <div class="w-1/2 pl-6 pr-6">
+                    <span class="text-lg text-zinc-200 font-sans inline-block">
+                        <ul class="list-disc">
+                            <li class="pb-2">How can we craft a more responsive, intuitive website that aims to fix the problems found?</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+            <div class="w-full col-span-2 pr-6 pl-6 pt-10 mb-8 flex flex-row justify-center">
+                <span class="text-lg text-zinc-200 font-sans inline-block">
+                    This project aims to answer these questions and many more.
+                </span>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="intro" class="h-auto mb-8 flex flex-col justify-evenly items-center border-b-2 border-solid">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                THE INVESTOR'S DILLEMMA
+            </span>
+        </div>
+        <div class="w-full flex flex-row justify-evenly items-center pt-12 pl-6">
+            <div class="flex flex-row justify-center w-2/3 mt-6">
+                <img class="self-center" src="./img/stonk.jpg" alt="">
+            </div>
+            <div class="w-1/3 mx-6 flex flex-row justify-center">
+                <span class="text-xl text-zinc-200 font-sans inline-block">
+                    Imagine a busy investor looking to find more information about a company they want to invest in. </span>
+            </div>
+            
+        </div>
+
+        <div class="w-full flex flex-row justify-evenly items-center pt-12 pl-6">
+            <div class="flex flex-row justify-center w-2/3 mt-6">
+                <img class="self-center" src="./img/not-stonk.jpg" alt="">
+            </div>
+            <div class="w-1/3 mx-6 flex flex-row justify-center">
+                <span class="text-xl text-zinc-200 font-sans inline-block">
+                    The internet is a great source of information, but what if that information is difficult to find, especially on different devices?
+                </span>
+            </div>
+            
+        </div>
+        <div class="mb-12">
+
+        </div>
+
+        
+    </div>
+
+
+    <div id="sketch" class="h-auto mb-8 ml-1/2 flex flex-col justify-evenly border-b-2 border-solid border-double items-center">
+        <div class="flex flex-row justify-center mb-6">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                BERKSHIRE HATHAWAY
+            </span>
+            
+        </div>
+        <div class="flex flex-row justify-center pt-6">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle italic">
+                Berkshire Hathaway, one of the most expensive conglomerates in the world, <br/> has an extremely simple yet surprisingly confusing website.
+            </span>
+        </div>
+        <div class="flex flex-row justify-center w-2/3 mt-8">
+            <img class="self-center" src="./img/bh-ex.png" alt="">
+        </div>
+
+
+        <div class="flex flex-row justify-center mt-4 px-8 py-4 bg-emerald-400 border-4 border-white rounded-full hover:bg-emerald-200">
+            <a class="font-sans text-lg underline text-[#3366CC]" href="https://www.berkshirehathaway.com/" target="_blank" rel="noopener noreferrer">Visit the Current Website</a>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle italic">
+                Quick! You need information about the company.
+            </span>
+        </div>
+        <div class="flex flex-row justify-center pt-1">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle italic">
+                Let's look at some issues you'll run into.
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Usability Problems:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">No obvious way to undo clicking a link (no home button)</li>
+                    <li class="">No mobile specific layout
+                    </li>
+                    <li class="">Clicking link replaces current page</li>
+                    <li class="">Hyperlink base and interaction colors are backwards</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Learnability Problems:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">No pattern/structure to ordering of links</li>
+                    <li class="">Small text easy to ignore
+                    </li>
+                    <li class="">No help/documentation. All feedback must be mailed</li>
+                    <li class="">Random GEICO AD confusing for new users</li>
+                    <li class="">Difficult to learn link structure because links don't open new tab</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Memorability Problems:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Emphasizes recall over recognition</li>
+                    <li class="">No color indicators or categorization to help recognition</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Accessibility Problems (WAVE):
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Small text</li>
+                    <li class="">No heading structure
+                    </li>
+                    <li class="">Website language not identified</li>
+                    <li class="">Links point to PDF documents</li>
+                </ul>
+            </span>
+        </div>
+
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle italic">
+                Oops! You took too long to find the information needed.
+            </span>
+        </div>
+        <div class="flex flex-row justify-center pt-2 mb-6">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle italic">
+                You just lost all of your life savings :(
+            </span>
+        </div>
+        
+    </div>
+
+    
+
+
+    <div id="obs-int" class="h-auto mb-8 flex flex-col justify-evenly items-center border-b-2 border-solid">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                EARLY PROTOTYPES
+            </span>
+        </div>
+        <div class="w-full pr-6 pl-6 flex flex-row justify-center pt-10">
+            <span class="text-xl text-zinc-200 font-sans inline-block align-middle">
+                Let's do Warren Buffett (and potential investors) a favor and fix his website :)
+            </span>
+        </div>
+        <div class="w-full pr-6 pl-6 flex flex-row justify-center pt-2">
+            <span class="text-xl text-zinc-200 font-sans inline-block align-middle">
+                Let's look at my thought process before designing.
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                My Thought Process:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Berkshire Hathaway prides itself in its simplicity.</li>
+                    <li class="">How can we create a better interface while maintaining their values?</li>
+                    <li class="">Create a modern interface to show company's commitment to innovation</li>
+                    <li class="">Remove excessive links from main page.</li>
+                    <li class="">Frequent and new investors need quick access to information</li>
+                    <li class="">Create categories to help with recognition</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Desktop:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-2/3 mt-8">
+            <img src="./img/desktop.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Tablet:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-2/3 mt-8">
+            <img src="./img/tablet.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Mobile:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-2/3 mt-8 pb-10">
+            <img src="./img/mobile.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Problems Addressed:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2 mb-10">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Added a help button to top of page</li>
+                    <li class="">Added a home button to allow users to return to home page</li>
+                    <li class="">Created three categories based on the theme of the links</li>
+                    <li class="">Added "Recently Viewed" category for quick access for frequent users</li>
+                    <li class="">Maintained overall simplicity of website</li>
+                    <li class="">Removed confusing clutter from main page</li>
+                </ul>
+            </span>
+        </div>
+
+               
+    </div>
+
+    <div id="obs-int" class="h-auto mb-8 flex flex-col justify-evenly items-center border-b-2 border-solid">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                HI-FI PROTOTYPES
+            </span>
+        </div>
+        
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                My Thought Process:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Color scheme matches Berkshire Hathaway palette</li>
+                    <li class="">Buttons would POP on hover to increase learnability</li>
+                    <li class="">Use standard fonts to keep readability consistent among operating systems</li>
+                    <li class="">Keep page mobile and tablet friendly for "on the go" investors</li>
+                </ul>
+            </span>
+        </div>
+
+        <div class="w-full pr-6 pl-6 flex flex-row justify-center pt-10">
+            <span class="text-xl text-zinc-200 font-sans inline-block align-middle">
+                Let's start looking at the details, starting with a visual style guide!
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Visual Style Guide:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-2/3 mt-8">
+            <img src="./img/v.png" alt="">
+        </div>
+
+        <div class="w-full pr-6 pl-6 flex flex-row justify-center pt-10 mt-10">
+            <span class="text-xl text-zinc-200 font-sans inline-block align-middle">
+                Let's look at some HI-FI designs created using Figma!
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center mt-6">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Desktop:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-4/5 mt-8">
+            <img src="./img/d.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-12 mt-8">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Tablet:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-4/5 mt-8">
+            <img src="./img/t.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-12 mt-8">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Mobile:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-4/5 mt-8 pb-6">
+            <img src="./img/m.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center pt-10">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                Emphasizing Visual Hierarchy:
+            </span>
+        </div>
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2 mb-10">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">Categories are unique colors</li>
+                    <li class="">Font scales down as you move from headings to sub-headings</li>
+                    <li class="">Between the 3 layouts, items in the same categories are always aligned together</li>
+                </ul>
+            </span>
+        </div>
+               
+    </div>
+
+    <div id="storyboard" class="h-auto mb-8 flex flex-col justify-evenly border-b-2 border-solid items-center">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                THE FINAL PRODUCT
+            </span>
+        </div>
+
+        
+
+        <div class="flex flex-row justify-center pt-12">
+            <span class="text-2xl text-zinc-200 font-sans inline-block align-middle">
+                A Preview:
+            </span>
+        </div>
+
+        <div class="flex flex-row justify-center w-4/5 mt-8 pb-10">
+            <img src="./img/prev.png" alt="">
+        </div>
+
+        <div class="flex flex-row justify-center mb-12 mt-8 px-8 py-4 bg-emerald-400 border-4 border-white rounded-full hover:bg-emerald-200">
+            <a class="font-sans text-lg underline text-[#3366CC]" href="https://fortnitebattlepass123.github.io/responsive/" target="_blank" rel="noopener noreferrer">Visit the Improved Website!</a>
+        </div>
+
+    </div>
+
+    <div id="conc" class="h-auto mb-8 flex flex-col justify-evenly items-center">
+        <div class="self-center">
+            <span class="text-4xl text-zinc-200 font-sans inline-block align-middle">
+                What I Learned
+            </span>
+        </div>
+
+        <div class="pl-6 flex flex-row justify-start w-1/2 pt-2">
+            <span class="text-lg text-zinc-200 font-sans inline-block">
+                <ul class="list-decimal">
+                    <li class="">When assessing usability, it's important to look from the perspectives of new, frequent, and casual users.</li>
+                    <li class="pt-4">Think about what kinds of users will use the website when designing; in this case, I designed for prospective and current investors.
+                    </li>
+                    <li class="pt-4">Annotating a design helps streamline the coding workflow.</li>
+                    <li class="pt-4">Don't put your lifesavings into Gamestop stock... I learned this the hard way.</li>
+                </ul>
+            </span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
